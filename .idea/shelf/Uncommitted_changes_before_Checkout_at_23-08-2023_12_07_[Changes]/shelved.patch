@@ -1,0 +1,18 @@
+Index: src/main/java/com/driver/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.driver;\r\n\r\npublic class Main {\r\n   public static void main(String [] args){\r\n\r\n\t   B obj = new B();\r\n\r\n\t   System.out.println(obj.meth());\r\n   }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/driver/Main.java b/src/main/java/com/driver/Main.java
+--- a/src/main/java/com/driver/Main.java	
++++ b/src/main/java/com/driver/Main.java	
+@@ -6,5 +6,6 @@
+ 	   B obj = new B();
+ 
+ 	   System.out.println(obj.meth());
++
+    }
+ }
+\ No newline at end of file
