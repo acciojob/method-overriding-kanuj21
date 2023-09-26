@@ -1,7 +1,6 @@
 package com.driver;
 
 
-
 class Main {
 	public static class A {
 		public String meth(){
